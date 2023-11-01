@@ -1,0 +1,27 @@
+{
+  "name": "nft-minter-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "fs-extra": "^11.1.1",
+    "ganache": "^7.9.1",
+    "mocha": "^10.2.0",
+    "next": "^12.3.4",
+    "next-routes": "^1.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "solc": "^0.4.26",
+    "web3": "^4.1.2",
+    "web3.storage": "^3.1.0"
+  }
+}
